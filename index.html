@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c35">
+  <meta name="description" content="Discover academics, research and campus life at COMSATS University Islamabad, Abbottabad Campus.">
+  <title>COMSATS Abbottabad | Learn beyond the classroom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="COMSATS Abbottabad home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">COMSATS<span>ABBOTTABAD CAMPUS</span></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#programs">Academics</a>
+      <a href="#campus">Campus life</a>
+      <a href="#research">Research</a>
+      <a class="nav-cta" href="#admissions">Admissions <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=2200&q=88" alt="University campus framed by trees and open grounds">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> A place to begin what's next</p>
+        <h1 id="hero-title">Curiosity finds<br>its <em>altitude.</em></h1>
+        <p class="hero-copy">At COMSATS Abbottabad, ambitious ideas meet a campus built for discovery, in the heart of the Hazara region.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#programs">Explore programs <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about">Get to know us <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span>COMSATS University Islamabad</span><span>Abbottabad Campus</span></div>
+      <a class="hero-scroll" href="#about" aria-label="Scroll to campus overview"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="intro-label"><span class="section-index">01</span><span>Rooted in place.<br>Connected to possibility.</span></div>
+      <div class="intro-main">
+        <h2>A university shaped by its surroundings, and open to the world.</h2>
+        <p>Set among the hills of Abbottabad, our campus brings together a close-knit community and a wide-ranging academic experience. Here, students build the knowledge, confidence and perspective to make a difference.</p>
+        <a class="underlined-link" href="#campus">Discover our campus <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="intro-stat"><strong>2001</strong><span>Building futures<br>in Abbottabad</span></div>
+    </section>
+
+    <section class="programs-section" id="programs">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span></span> Find your direction</p>
+            <h2>Study what moves<br><em>you forward.</em></h2>
+          </div>
+          <p class="heading-note">Explore areas of study grounded in strong foundations and shaped by the questions that matter now.</p>
+        </div>
+
+        <div class="program-toolbar" aria-label="Filter programs">
+          <span>Areas of study</span>
+          <div class="filter-group" role="group" aria-label="Filter by academic area">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-button" type="button" data-filter="technology" aria-pressed="false">Technology</button>
+            <button class="filter-button" type="button" data-filter="science" aria-pressed="false">Science</button>
+            <button class="filter-button" type="button" data-filter="business" aria-pressed="false">Business</button>
+          </div>
+        </div>
+
+        <div class="program-grid" aria-live="polite">
+          <article class="program-card" data-category="technology">
+            <span class="card-number">01 / TECHNOLOGY</span>
+            <div class="program-icon icon-circuit" aria-hidden="true"><span></span><span></span><span></span></div>
+            <h3>Computing &amp; technology</h3>
+            <p>Turn complex problems into thoughtful, useful solutions.</p>
+            <a href="#admissions" aria-label="Explore computing and technology programs">Explore area <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="program-card" data-category="science">
+            <span class="card-number">02 / SCIENCE</span>
+            <div class="program-icon icon-orbit" aria-hidden="true"><span></span><span></span></div>
+            <h3>Natural sciences</h3>
+            <p>Ask better questions about the world around us.</p>
+            <a href="#admissions" aria-label="Explore natural sciences programs">Explore area <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="program-card" data-category="business">
+            <span class="card-number">03 / BUSINESS</span>
+            <div class="program-icon icon-growth" aria-hidden="true"><span></span><span></span><span></span></div>
+            <h3>Business &amp; management</h3>
+            <p>Shape ideas into ventures with lasting impact.</p>
+            <a href="#admissions" aria-label="Explore business and management programs">Explore area <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="program-note">Program availability and admission criteria may vary by intake.</p>
+      </div>
+    </section>
+
+    <section class="campus-section" id="campus">
+      <div class="campus-photo">
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=85" alt="Students walking together across a university campus" loading="lazy">
+        <span class="photo-label">A campus that brings people together</span>
+      </div>
+      <div class="campus-copy">
+        <p class="eyebrow"><span></span> More than a classroom</p>
+        <h2>Make room for<br><em>every side</em> of you.</h2>
+        <p>Find your people, try something new, and make the most of a campus where learning carries on long after the lecture ends.</p>
+        <a class="button button-outline" href="#admissions">Explore campus life <span aria-hidden="true">↗</span></a>
+        <span class="campus-decoration" aria-hidden="true">A.</span>
+      </div>
+    </section>
+
+    <section class="research-section" id="research">
+      <div class="section-wrap research-inner">
+        <div class="research-mark" aria-hidden="true">C</div>
+        <div>
+          <p class="eyebrow"><span></span> Ideas into impact</p>
+          <h2>Research with<br><em>the world in mind.</em></h2>
+        </div>
+        <div class="research-aside">
+          <p>Our academic community brings curiosity to real questions, building knowledge that reaches beyond campus.</p>
+          <a class="underlined-link link-light" href="#admissions">Discover research at COMSATS <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="admissions-section" id="admissions">
+      <div class="section-wrap admissions-inner">
+        <div>
+          <p class="eyebrow eyebrow-dark"><span></span> Your next chapter</p>
+          <h2>Ready to see<br>where you <em>could go?</em></h2>
+        </div>
+        <div class="admissions-action">
+          <p>Take the first step toward a university experience that will take you further.</p>
+          <a class="button button-green" href="https://www.cuiatd.edu.pk/" target="_blank" rel="noopener noreferrer">Visit the campus website <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#home" aria-label="COMSATS Abbottabad home">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">COMSATS<span>ABBOTTABAD CAMPUS</span></span>
+    </a>
+    <p>COMSATS University Islamabad<br>Abbottabad Campus, Pakistan</p>
+    <div class="footer-meta"><span>Learning with purpose.</span><span>© <span id="current-year">2026</span> COMSATS Abbottabad</span></div>
+  </footer>
+</body>
+</html>
